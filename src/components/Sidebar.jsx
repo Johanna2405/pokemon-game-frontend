@@ -20,7 +20,7 @@ const Sidebar = () => {
               className="flex gap-4 items-center group"
             >
               <img
-                src="src/assets/arrow.svg"
+                src="/arrow.svg"
                 alt="arrow"
                 className="w-4 hidden group-hover:block transition-opacity duration-200"
               />

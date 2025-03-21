@@ -64,7 +64,7 @@ const PokemonPage = () => {
       <div className="flex flex-col gap-8 justify-between">
         <button onClick={handleGoBack} className="text-2xl flex gap-4">
           <img
-            src="/src/assets/arrow.svg"
+            src="/arrow.svg"
             alt="Arrow right"
             className="w-4 transform rotate-180"
           />
