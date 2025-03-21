@@ -63,7 +63,11 @@ function getPokemonAttackName(pokemon) {
 export const addToRoster = (pokemon, setRosterPokemon) => {
   // Skip if not a valid pokemon object
   if (!pokemon || !pokemon.id) {
-    toast.error("Invalid Pokémon data");
+    toast("Invalid Pokémon data", {
+      className:
+        "border-4 border-black border-x-8 rounded-none font-jersey text-black text-2xl p-8",
+      closeButton: false,
+    });
     return false;
   }
 
@@ -72,13 +76,21 @@ export const addToRoster = (pokemon, setRosterPokemon) => {
 
   // Check if Pokemon is already in roster
   if (currentRoster.some((p) => p.id === pokemon.id)) {
-    toast.info(`${pokemon.name} is already in your roster!`);
+    toast(`${pokemon.name} is already in your roster!`, {
+      className:
+        "border-4 border-black border-x-8 rounded-none font-jersey text-black text-2xl p-8",
+      closeButton: false,
+    });
     return false;
   }
 
   // Check roster size limit
   if (currentRoster.length >= 6) {
-    toast.error("Your roster is full! (6 Pokémon maximum)");
+    toast("Your roster is full! (6 Pokémon maximum)", {
+      className:
+        "border-4 border-black border-x-8 rounded-none font-jersey text-black text-2xl p-8",
+      closeButton: false,
+    });
     return false;
   }
 
@@ -116,7 +128,11 @@ export const addToRoster = (pokemon, setRosterPokemon) => {
   setRosterPokemon(updatedRoster);
 
   // Provide feedback to user
-  toast.success(`${pokemon.name} was added to your roster!`);
+  toast(`${pokemon.name} was added to your roster!`, {
+    className:
+      "border-4 border-black border-x-8 rounded-none font-jersey text-black text-2xl p-8",
+    closeButton: false,
+  });
   return true;
 };
 
