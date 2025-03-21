@@ -1,8 +1,8 @@
 # Pokémon Battle Game - Frontend
 
-⚙️ Work in progress - a fun liitle pokémon game build with React.
-🎨 Deployed version: https://pokemon-game-frontend.onrender.com
-💾 Backend Repo: https://github.com/Johanna2405/pokemon-game-backend
+    ⚙️ Work in progress - a fun liitle pokémon game build with React. 
+    🎨 Deployed version: https://pokemon-game-frontend.onrender.com
+    💾 Backend Repo: https://github.com/Johanna2405/pokemon-game-backend
 
 This was a group project at WBS Coding School I continued working on. 
 
