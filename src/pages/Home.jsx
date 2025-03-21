@@ -48,7 +48,7 @@ const Home = () => {
           className="text-2xl flex gap-4"
         >
           <img
-            src="/src/assets/arrow.svg"
+            src="/arrow.svg"
             alt="Arrow right"
             className="w-4 transform rotate-180"
           />
@@ -63,7 +63,7 @@ const Home = () => {
           className="text-2xl flex gap-4"
         >
           Next
-          <img src="src/assets/arrow.svg" alt="Arrow right" className="w-4" />
+          <img src="/arrow.svg" alt="Arrow right" className="w-4" />
         </button>
       </div>
       <ToastContainer />
