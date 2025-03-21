@@ -115,9 +115,9 @@ const PokemonPage = () => {
         </div>
         <div className="flex gap-4 justify-between">
           <h2 className="text-3xl text-center">Stats</h2>
-          <button className="bg-white border-2 border-y-4 border-black text-black tracking-wide px-4 py-2 text-xl hover:bg-black hover:text-white">
+          {/* <button className="bg-white border-2 border-y-4 border-black text-black tracking-wide px-4 py-2 text-xl hover:bg-black hover:text-white">
             play sound
-          </button>
+          </button> */}
         </div>
 
         <div className="border-2 border-black flex flex-col">
